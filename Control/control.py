@@ -2,8 +2,8 @@ import os
 import json
 from datetime import datetime
 import hashlib
-from src_file import VCS_DIR, OBJECTS_DIR, INDEX_FILE, LOG_FILE, HEAD_FILE
-from ..Model.ll_class import CommitLinkedList
+from Control.src_file import VCS_DIR, OBJECTS_DIR, INDEX_FILE, LOG_FILE, HEAD_FILE
+from Model.ll_class import CommitLinkedList
 
 commit_list = CommitLinkedList()
 

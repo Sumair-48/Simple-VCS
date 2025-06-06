@@ -1,5 +1,5 @@
 import sys
-from .Control.control import init,add,commit,show_log
+from Control.control import init,add,commit,show_log
 
 
 def main():
